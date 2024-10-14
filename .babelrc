@@ -1,0 +1,11 @@
+/**
+ * Updated by https://github.com/NguyenMinhTrungHieu author on October 14th 2024
+ */
+
+ {
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    ["@babel/transform-runtime"],
+    ["module-resolver", { "alias": { "~": "./src" } }]
+  ]
+}
